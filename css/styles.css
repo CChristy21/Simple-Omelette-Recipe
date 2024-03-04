@@ -1,0 +1,149 @@
+body{
+    background-color: #FAEBD7;
+    padding-top: 2rem;
+    font-family: 'Young Serif';
+    font-family: 'Outfit';
+    text-align: justify;
+}
+
+div{
+    background-color: white;
+    margin: auto 100px auto 100px;
+    border-radius: 25px;
+}
+
+.simple-omelette-recipe{
+    text-align: left;
+    margin: auto 35.875px auto 35.875px;
+    }
+
+.omelette{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+
+.omelette-description{
+    text-align: left;
+    margin: 15px 35.875px auto 35.875px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.preparation-time{
+    background-color: #fff0f5;
+    margin-left: 35.875px;
+    margin-right: 35.875px;
+}
+
+h3{
+    padding-top: 20px;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    color: #872657;
+}
+
+.preparation-time-lists{
+    line-height: 2;
+    margin-top: 0;
+    padding-bottom: 20px;
+}
+
+.ingredients{
+    margin: auto 35.875px auto 35.875px;
+    color: #744B3D;
+}
+
+.ingredients-lists{
+    margin-left: 16px;
+    line-height: 2;
+    margin: auto 35.875px auto 20px;
+
+}
+
+hr{
+    width: 90%;
+    color: lightgrey;
+}
+
+.instructions{
+    margin: auto 35.875px auto 35.875px;
+    color: #744B3D;
+}
+
+ol{
+    margin-left: 16px;
+    margin-right: 35.875px;
+    padding-left: 20px;
+    line-height: 2;
+    text-align: justify;
+    list-style: none;
+    counter-reset: ordered-list;
+}
+
+ol li:before{
+    color: #744B3D;
+    content: counter(ordered-list);
+    counter-increment: ordered-list;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+
+.nutrition{
+    margin: auto 35.875px auto 35.875px;
+    color: #744B3D;
+}
+
+.nutrition-description{
+    text-align: left;
+    margin: 15px 35.875px auto 35.875px;
+    line-height: 1.5;
+}
+
+table{
+    text-align: left;
+    width: 90%;
+    margin: auto 35.875px auto 35.875px;
+    border-spacing: 0;
+    padding: 0;
+}
+
+th, td{
+    border-bottom: 1px solid;
+    border-color: lightgray;
+    margin-left: 0;
+    margin-right: 0;
+    line-height: 2;
+}
+
+.kcal{
+    color: #744B3D;
+    font-weight: bold;
+}
+
+.zero-gram{
+    color: #744B3D;
+    font-weight: bold;
+}
+
+.twenty-gram{
+    color: #744B3D;
+    font-weight: bold;
+}
+
+.Fat{
+    border-bottom: none;
+    padding-bottom: 20px;
+}
+
+.gram{
+    border-bottom: none;
+    color: #744B3D;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
